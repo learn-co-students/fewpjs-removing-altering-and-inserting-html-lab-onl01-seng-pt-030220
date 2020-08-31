@@ -7,4 +7,6 @@
 main.remove()
 let newHeader = document.createElement('h1')
 newHeader.setAttribute("id", "victory")
-newHeader.innerHTML = `#{Christian} is the champion`
+newHeader.innerHTML = `Christian is the champion`
+let body = document.querySelector('body')
+body.appendChild(newHeader)
