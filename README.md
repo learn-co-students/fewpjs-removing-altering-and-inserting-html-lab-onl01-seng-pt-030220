@@ -190,7 +190,7 @@ The `removeChild()` method requires us to find a parent and tell it to remove
 its already-found child:
 
 ``` javascript
-ul.removeChild(ul.querySelector('li:nth-child(2)'))
+ul.removeChild(ul.querySelector('li:nth-child(2)')) 
 ```
 
 The second element is gone!
