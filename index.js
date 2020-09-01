@@ -1,9 +1,14 @@
 main.remove();
+// document.querySelector("main#main").remove();
 
-let newHeader = document.createElement("h1");
+const newHeader = document.createElement("h1");
+// const newHeader = document.createElement("h1");
 
-document.body.appendChild(newHeader);
+// document.body.appendChild(newHeader);
 
 newHeader.setAttribute("id", "victory");
+// newHeader.id = "victory"
 
-newHeader.innerHTML = "YOUR-NAME is the champion";
+newHeader.innerHTML = "Marcos is the champion";
+
+// newHeader.className = "victory";
